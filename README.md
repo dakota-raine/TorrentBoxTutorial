@@ -3,9 +3,10 @@
 ### Prerequisites:
 ---
 **Rasberry Pi 2/3/4**
-*This tutorial assumes you've already:
+*This tutorial assumes you've already:*
 
 * Installed the latest version of Raspberry Pi OS, run the `raspi-config` command, and established a working connection to the internet.)*
+
 * Paid for a VPN subscription that will help maintain your privacy.
 
 ### Step-by-Step:
