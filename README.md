@@ -5,7 +5,7 @@
 **Rasberry Pi 2/3/4**
 *This tutorial assumes you've already:*
 
-* Installed the latest version of Raspberry Pi OS, run the `raspi-config` command, and established a working connection to the internet.)*
+* Installed the latest version of [Raspberry Pi OS](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip), run the `raspi-config` command, and established a working connection to the internet.)*
 
 * Paid for a VPN subscription that will help maintain your privacy.
 
