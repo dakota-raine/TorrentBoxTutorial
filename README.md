@@ -1,18 +1,14 @@
-# TorrentBoxTutorial
+# Torrent Box Tutorial
 
-####################################
-######  Dakota's Torrent Box  ######
-####################################
+### Prerequisites:
+---
+**Rasberry Pi 2/3/4**
+*(This project assumes you've already installed the latest version of Raspberry Pi OS, run the `raspi-config` command, and established a working connection to the internet.)*
 
-Prerequisites:
---------------
-	- Rasberry Pi 2/3/4 
-		*(This project assumes you've already installed the latest version of Raspberry Pi OS, run the `raspi-config` command, and established a working connection to the internet.)*
+- VPN subscription that will help maintain your privacy.
 
-	- VPN subscription that will help maintain your privacy.
-
-Step-by-Step:
--------------
+### Step-by-Step:
+---
 1. Install OpenVPN & Transmission-Daemon
 	`sudo apt update && sudo apt install openvpn transmission-daemon -y`
 	
