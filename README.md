@@ -37,7 +37,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 		1. Set `"download-dir": "/var/lib/transmission-daemon/downloads"` to `"download-dir": "/mnt/downloads"`
 
-		2. Add your local network IP address - or any other wildcard values - you might want to use to the `rpc-whitelist` values, separated by commas. Common examples of wildcards for a LAN would be **192.168.\*.\* or 10.0.0.\***.
+		2. Add your local network IP address - or any other wildcard values - you might want to use to the `rpc-whitelist` values, separated by commas. *(Common examples of wildcards for a LAN would be **192.168.\*.\*** or **10.0.0.\***.)*
 
 		3. ``
 
