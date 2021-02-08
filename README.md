@@ -19,15 +19,23 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	1. `sudo apt update && sudo apt install openvpn transmission-daemon -y`
 	
 2. Configure Transmission
+
 	1. Stop Transmission
 		`sudo systemctl stop transmission-daemon.service`
+
 	2. Backup the original config file
 		`sudo cp /etc/transmission-daemon/settings.json /etc/transmission-daemon/settings.json.bak`
+
 	3. Alter the following settings in `/etc/transmission-daemon/settings.json`
+
 		1. ``
+
 		2. ``
+
 		3. ``
+
 		4. ``
+
 		5. ``
 
 3. 
