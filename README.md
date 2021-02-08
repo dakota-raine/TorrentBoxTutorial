@@ -1,7 +1,9 @@
 # Torrent Box Tutorial
 
-### Prerequisites:
+### Getting Started:
+
 ---
+
 **Rasberry Pi 2/3/4**
 *This tutorial assumes you've already:*
 
@@ -17,8 +19,8 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 ### Step-by-Step:
 ---
-1. **Install OpenVPN & Transmission-Daemon**
-	1. `sudo apt update && sudo apt install openvpn transmission-daemon -y`
+1. **Install Prerequisites**
+	1. `sudo apt update && sudo apt install openvpn transmission-daemon unzip curl firefox -y`
 
 ---
 	
@@ -39,15 +41,15 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 		2. Add your local network IP address - or any other wildcard values - you might want to use to the `rpc-whitelist` values, separated by commas. *(Common examples of wildcards for a LAN would be **192.168.\*.\*** or **10.0.0.\***.)*
 
-		3. ``
+		3. `"rpc-password": "**PASSWORD**"`... Replace everything between the quotes with your password.
 
-		4. ``
-
-		5. ``
+		4. Change username in `"rpc-username": "USERNAME"` to whatever username you want to use. *(This **does not** have to be your computer username.)*
 
 ---
 
-3. 
+3. ****
+
+---
 
 4. 
 
