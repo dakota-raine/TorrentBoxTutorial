@@ -17,6 +17,8 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 ---
 1. **Install OpenVPN & Transmission-Daemon**
 	1. `sudo apt update && sudo apt install openvpn transmission-daemon -y`
+
+---
 	
 2. **Configure Transmission**
 
@@ -37,6 +39,8 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 		4. ``
 
 		5. ``
+
+---
 
 3. 
 
