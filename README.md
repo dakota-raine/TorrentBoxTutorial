@@ -44,10 +44,12 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 		3. `"rpc-password": "**PASSWORD**"`... Replace everything between the quotes with your password.
 
 		4. Change username in `"rpc-username": "USERNAME"` to whatever username you want to use. *(This **does not** have to be your computer username.)*
+		
+		5. Save your changes and exit.
 
 ---
 
-3. ****
+3. **Configure OpenVPN**
 
 ---
 
