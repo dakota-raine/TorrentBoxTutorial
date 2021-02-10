@@ -84,7 +84,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	
 	4. Create a file to store your VPN credentials *(ie. username and password)* by running `sudo nano /etc/openvpn/.creds`.
 	
-	**Example**
+	**Example:**
 	```
 	user
 	password
