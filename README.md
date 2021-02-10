@@ -91,7 +91,15 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	```
 	To save, hit **CTRL**+**X**, **y**, and **Return**.
 	
-	5. 
+	5. Run `sudo nano /etc/openvpn/default.conf` and next to `auth-user-pass`, add the credential filename we just made in **step 4**. It should look like this:
+	
+	**Example:**
+	```
+	auth-user-pass .creds
+	```
+	[^1]: To save, hit **CTRL**+**X**, **y**, and **Return**.
+	
+	6. 
 
 ---
 
