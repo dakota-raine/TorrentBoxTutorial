@@ -97,7 +97,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	```
 	auth-user-pass .creds
 	```
-	[^1]: To save, hit CTRL + X, y, and Return.
+	To save, hit **CTRL**+**X**, **y**, and **Return**.
 	
 	6. 
 
