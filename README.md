@@ -89,6 +89,9 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	user
 	password
 	```
+	To save, hit **CTRL**+**X**, **y**, and **Return**.
+	
+	5. 
 
 ---
 
