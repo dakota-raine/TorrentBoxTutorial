@@ -27,13 +27,22 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 2. **Configure Transmission**
 
 	1. Stop Transmission
-		`sudo systemctl stop transmission-daemon.service`
+	
+	```
+	sudo systemctl stop transmission-daemon.service
+	```
 
 	2. Backup the original config file
-		`sudo cp /etc/transmission-daemon/settings.json /etc/transmission-daemon/settings.json.bak`
+
+	```
+	sudo cp /etc/transmission-daemon/settings.json /etc/transmission-daemon/settings.json.bak
+	```
 
 	3. Create directory for downloads.
-		`sudo mkdir /mnt/downloads`
+
+	```
+	sudo mkdir /mnt/downloads
+	```
 	
 	4. Alter the following settings in `/etc/transmission-daemon/settings.json`
 
@@ -51,11 +60,16 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 3. **Configure OpenVPN**
 
-	1. Download the OpenVPN configuration files from your VPN service provider. **(For [mine](https://www.privateinternetaccess.com/openvpn/openvpn.zip), the command I needed to run was `wget https://www.privateinternetaccess.com/openvpn/openvpn.zip`. Yours will just be `wget` and then the URL for you service provider.)**
+	1. Download the [OpenVPN configuration files](https://www.privateinternetaccess.com/openvpn/openvpn.zip) from your VPN service provider. **(Use `wget` to download the zip file.)**
+	
+	```
+	wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
+	```
 	
 	2. Unzip the the file.
+	
 	```
-		unzip openvpn.zip
+	unzip openvpn.zip
 	```
 
 ---
