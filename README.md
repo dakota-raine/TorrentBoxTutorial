@@ -51,6 +51,11 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 3. **Configure OpenVPN**
 
+	1. Download the OpenVPN configuration files from your VPN service provider. **(For [mine](https://www.privateinternetaccess.com/openvpn/openvpn.zip), the command I needed to run was `wget https://www.privateinternetaccess.com/openvpn/openvpn.zip`. Yours will just be `wget` and then the URL for you service provider.)**
+	
+	2. Unzip the the file.
+	`unzip openvpn.zip`
+
 ---
 
 4. 
