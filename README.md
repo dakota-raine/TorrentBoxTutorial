@@ -79,7 +79,15 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	3. Copy your preferred **.ovpn** configuration file to the `/etc/openvpn` directory as `default.conf`. *(I chose one close to my home in Northern California.)*
 	
 	```
-	sudo cp 
+	sudo cp us_silicon_valley.ovpn /etc/openvpn/default.conf
+	```
+	
+	4. Create a file to store your VPN credentials *(ie. username and password)* by running `sudo nano /etc/openvpn/.creds`.
+	
+	**Example**
+	```
+	user
+	password
 	```
 
 ---
