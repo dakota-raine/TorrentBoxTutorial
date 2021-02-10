@@ -20,7 +20,11 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 ### Step-by-Step:
 ---
 1. **Install Prerequisites**
-	1. `sudo apt update && sudo apt install openvpn transmission-daemon unzip curl firefox-esr -y`
+	1. Use apt *(or **apt-get**)* to install **OpenVPN**, **Transmission**, **unzip**, **curl**, and **Firefox**.
+	
+	```
+	sudo apt update && sudo apt install openvpn transmission-daemon unzip curl firefox-esr -y
+	```
 
 ---
 	
@@ -50,7 +54,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 		2. Add your local network IP address - or any other wildcard values - you might want to use to the `rpc-whitelist` values, separated by commas. *(Common examples of wildcards for a LAN would be **192.168.\*.\*** or **10.0.0.\***.)*
 
-		3. `"rpc-password": "**PASSWORD**"`... Replace everything between the quotes with your password.
+		3. `"rpc-password": "PASSWORD"`... Replace everything between the quotes with your password.
 
 		4. Change username in `"rpc-username": "USERNAME"` to whatever username you want to use. *(This **does not** have to be your computer username.)*
 		
@@ -70,6 +74,12 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	
 	```
 	unzip openvpn.zip
+	```
+	
+	3. Copy your preferred **.ovpn** configuration file to the `/etc/openvpn` directory as `default.conf`. *(I chose one close to my home in Northern California.)*
+	
+	```
+	sudo cp 
 	```
 
 ---
