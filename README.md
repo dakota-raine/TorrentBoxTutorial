@@ -7,11 +7,11 @@
 **Rasberry Pi 2/3/4**
 *This tutorial assumes you've already:*
 
-* Gained a basic understanding of working with the Linux command line.
+* Gained a [basic understanding](https://www.udemy.com/course/command-line/) of working with the Linux command line.
 
-* Installed the latest version of [Raspberry Pi OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip), run the `raspi-config` command, and established a working connection to the internet.)*
+* [Installed](https://www.raspberrypi.org/documentation/installation/installing-images) the latest version of [Raspberry Pi OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip), run the `raspi-config` command, and established a working connection to the internet.)*
 
-* Setup OpenSSH access to your Raspberry Pi *(with X11Forwarding enabled)*.
+* [Setup SSH access](https://www.raspberrypi.org/documentation/remote-access/ssh) to your Raspberry Pi.
 
 * Paid for a VPN subscription that will help maintain your privacy.
 
@@ -20,8 +20,11 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 *(**Full Disclosure:** The link above is my personal referral link for PrivateInternetAccess.com.)*
 
 ### Step-by-Step:
+
 ---
+
 1. **Install Prerequisites**
+
 	1. SSH into your RasPi and use **apt** *(or **apt-get**)* to install **OpenVPN**, **Transmission**, **unzip**, and **Firefox**.
 	
 	```
@@ -29,7 +32,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	```
 
 ---
-	
+
 2. **Configure Transmission**
 
 	1. Stop Transmission
