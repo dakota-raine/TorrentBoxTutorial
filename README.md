@@ -50,15 +50,15 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	sudo mkdir /mnt/downloads
 	```
 	
-	4. Alter the following settings in `/etc/transmission-daemon/settings.json`
+	4. Use `sudo nano /etc/transmission-daemon/settings.json` to alter the following settings:
 
 		1. Set `"download-dir": "/var/lib/transmission-daemon/downloads"` to `"download-dir": "/mnt/downloads"`
 
-		2. Add your local network IP address - or any other wildcard values - you might want to use to the `rpc-whitelist` values, separated by commas. *(Common examples of wildcards for a LAN would be **192.168.\*.\*** or **10.0.0.\***.)*
+		2. Add your local network IP address(es) - *or any wildcard values* - that you might want to use to the `rpc-whitelist` values, separated by commas. *(Common examples of wildcards for a LAN would be **192.168.\*.\*** or **10.0.0.\***.)*
 
 		3. `"rpc-password": "PASSWORD"`... Replace everything between the quotes with your password.
 
-		4. Change username in `"rpc-username": "USERNAME"` to whatever username you want to use. *(This **does not** have to be your computer username.)*
+		4. Change username in `"rpc-username": "USERNAME"` to whatever username you want to use. *(This is completely separate from your computer username.)*
 		
 		5. Save your changes and exit.
 		
