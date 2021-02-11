@@ -109,12 +109,18 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	6. Set **OpenVPN** to start on boot:
 	
 	```
-	sudo systemctl enable default@openvpn.service
+	sudo systemctl enable openvpn@default.service
 	```
 
 ---
 
-4. 
+4. **Set Custom DNS Servers**
+
+	1. Choose a DNS service that suits your particular need. *(Personally, I'm a big fan of **[OpenNIC Public Servers](https://servers.opennicproject.org/)**, as they usually have many servers available, including ones with **no-log** and **anonymized log** options.)*
+
+	![Example from OpenNIC](opennic.png)
+
+	*Once you've selected a suitable set of DNS servers, make sure to copy the IPv4 and IPv6 addresses.*
 
 5. 
 
