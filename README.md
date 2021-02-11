@@ -1,4 +1,4 @@
-# Torrent Box Tutorial
+# Headless Torrent Box Tutorial
 
 ### Getting Started:
 
