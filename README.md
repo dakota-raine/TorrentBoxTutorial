@@ -116,11 +116,25 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 4. **Set Custom DNS Servers**
 
-	1. Choose a DNS service that suits your particular need. *(Personally, I'm a big fan of **[OpenNIC Public Servers](https://servers.opennicproject.org/)**, as they usually have many servers available, including ones with **no-log** and **anonymized log** options.)*
+	1. Choose a DNS service that suits your particular need. Personally, I'm a big fan of **[OpenNIC Public Servers](https://servers.opennicproject.org/)**, as they usually have many servers available, including ones with **no-log** and **anonymized log** options. *(Be sure to **only** use the servers with the **Pass** status and keep them updated, otherwise your default DNS may take over when the others fail.)*
 
 	![Example from OpenNIC](opennic.png)
 
 	*Once you've selected a suitable set of DNS servers, make sure to copy the IPv4 and IPv6 addresses.*
+	
+	2. Run `sudo nano /etc/dhcpcd.conf` and add the following line to the bottom of the file:
+	
+	```
+	static domain_name_servers=YOUR.DNS.SERVER.IP1 YOUR.DNS.SERVER.IP2
+	```
+	To save, hit **CTRL**+**X**, **y**, and **Return**.
+	
+	3. Restart your Raspberry Pi to apply changes:
+	
+	```
+	sudo reboot
+	```
+---
 
 5. 
 
