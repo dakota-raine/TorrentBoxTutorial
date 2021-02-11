@@ -125,7 +125,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	2. Run `sudo nano /etc/dhcpcd.conf` and add the following line to the bottom of the file:
 	
 	```
-	static domain_name_servers=YOUR.DNS.SERVER.IP1 YOUR.DNS.SERVER.IP2
+	static domain_name_servers=FIRST.DNS.SERVER.HERE SECOND.DNS.SERVER.HERE
 	```
 	To save, hit **CTRL**+**X**, **y**, and **Return**.
 	
