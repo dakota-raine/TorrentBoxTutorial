@@ -139,9 +139,26 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	```
 	sudo reboot
 	```
+
 ---
 
-5. 
+5. **Check for DNS Leaks**
+
+	1. Once you've reconnected to your Raspberry Pi, run `firefox-esr --kiosk https://dnsleaktest.com`. *(This will run hella slow, so be patient.)*
+	
+	2. Click the **☰** button on the right side of the browser and click *"Preferences"*.
+	
+	3. On the *General* section of the preferences page, scroll to the bottom and under *"Network Settings" click the *"Settings"* button.
+	
+	4. Under *"Configure Proxy Access to the Internet"*, select the *"No proxy"* option. Hit *"OK"* and close the tab.
+	
+	5. Refresh the **DNSLeakTest.com** tab and hit the *"Extended Test"* button on the right.
+	
+	6. When the test completes, it should give you a result like this:
+	
+	![DNSLeakTest.com Screenshot](dns_check.png)
+	
+	*(If it your result shows unfamiliar DNS servers, you will need to revisit the previous steps to discern the problem.)*
 
 6. 
 
