@@ -144,7 +144,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 
 5. **Check for DNS Leaks**
 
-	1. Once you've reconnected to your Raspberry Pi, run `firefox-esr --kiosk https://dnsleaktest.com`. *(This will run hella slow, so be patient.)*
+	1. Once you've reconnected to your Raspberry Pi, run `firefox-esr https://dnsleaktest.com`. *(This will run hella slow, so be patient.)*
 	
 	2. Click the **☰** button on the right side of the browser and click *"Preferences"*.
 	
@@ -158,14 +158,22 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	
 	![DNSLeakTest.com Screenshot](dns_check.png)
 	
-	*(If it your result shows unfamiliar DNS servers, you will need to revisit the previous steps to discern the problem.)*
+	*(If your result shows unfamiliar DNS servers, you will need to revisit the previous steps to discern the problem.)*
 
-6. 
+---
 
-7. 
+6. **Accessing The Transmission Web Client**
 
-8. 
-
-9. 
-
-10.
+	1. In your browser's address bar, enter `http://IP.OF.YOUR.PI:9091/transmission/web/`.
+	
+	2. You'll be greeted by a login pop-up, as seen below:
+	
+	![Transmission Web Client Login](trans_login.png)
+	
+	Enter your login information and submit.
+	
+	3. Now you should see your fully functioning **Transmission Web Client**, ready to download. Enjoy!
+	
+	![Transmission Web Client Dashboard](trans_gui.png)
+	
+## *See you, space cowboy...*
