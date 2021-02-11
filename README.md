@@ -22,10 +22,10 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 ### Step-by-Step:
 ---
 1. **Install Prerequisites**
-	1. Use apt *(or **apt-get**)* to install **OpenVPN**, **Transmission**, **unzip**, **curl**, and **Firefox**.
+	1. SSH into your RasPi and use **apt** *(or **apt-get**)* to install **OpenVPN**, **Transmission**, **unzip**, and **Firefox**.
 	
 	```
-	sudo apt update && sudo apt install openvpn transmission-daemon unzip curl firefox-esr -y
+	sudo apt update && sudo apt install openvpn transmission-daemon unzip firefox-esr -y
 	```
 
 ---
