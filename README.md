@@ -59,6 +59,13 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 		4. Change username in `"rpc-username": "USERNAME"` to whatever username you want to use. *(This **does not** have to be your computer username.)*
 		
 		5. Save your changes and exit.
+		
+	5. Start/enable **Transmission** to load on boot:
+	
+	```
+	sudo systemctl start transmission-daemon.service
+	sudo systemctl enable transmission-daemon.service
+	```
 
 ---
 
@@ -99,7 +106,11 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	```
 	To save, hit **CTRL**+**X**, **y**, and **Return**.
 	
-	6. 
+	6. Set **OpenVPN** to start on boot:
+	
+	```
+	sudo systemctl enable default@openvpn.service
+	```
 
 ---
 
