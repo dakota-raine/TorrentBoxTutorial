@@ -53,7 +53,19 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 	sudo mkdir /mnt/downloads
 	```
 	
-	4. Use `sudo nano /etc/transmission-daemon/settings.json` to alter the following settings:
+	4. Change ownership of `/mnt/downloads` by entering the following:
+	
+	```
+	sudo chown -R debian-transmission /mnt/downloads
+	```
+	
+	5. Add `pi` to the `debian-transmission` group:
+	
+	```
+	sudo usermod -aG pi debian-transmission
+	```
+	
+	6. Use `sudo nano /etc/transmission-daemon/settings.json` to alter the following settings:
 
 		1. Set `"download-dir": "/var/lib/transmission-daemon/downloads"` to `"download-dir": "/mnt/downloads"`
 
@@ -65,7 +77,7 @@ If you still need a VPN subscription, I'd highly recommened [PrivateInternetAcce
 		
 		5. Save your changes and exit.
 		
-	5. Start/enable **Transmission** to load on boot:
+	7. Start/enable **Transmission** to load on boot:
 	
 	```
 	sudo systemctl start transmission-daemon.service
